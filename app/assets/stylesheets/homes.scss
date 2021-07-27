@@ -5,3 +5,34 @@ body{
   line-height: 18px;
   margin: 33px;
 }
+
+p{
+  margin: 33px;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: white;
+  background-color: black;
+}
+
+//投稿一覧ページ
+th{
+  padding-bottom: 5px;
+}
+
+td{
+  padding: 1px 5px 7px 5px;
+}
+
+// 新規投稿
+label{
+  display: block;
+}
+
+div.field, div.btn{
+  margin-bottom: 10px;
+}
