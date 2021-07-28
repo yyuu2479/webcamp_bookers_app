@@ -1,3 +1,4 @@
+// 共通レイアウト
 body{
   color: #333;
   font-size: 13px;
@@ -38,4 +39,8 @@ label{
 
 div.field, div.btn{
   margin-bottom: 10px;
+}
+
+#notice{
+  color: green;
 }
