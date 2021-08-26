@@ -1,0 +1,4 @@
+$('#books_index').html('<%= j(render 'books/index', books: @books) %>')
+$('#notice').html('<%= flash[:notice]%>');
+$('#book_title').val("");
+$('#book_body').val("");
